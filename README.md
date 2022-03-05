@@ -42,14 +42,16 @@ https://five-cosmos-fb9.notion.site/Factory-Method-360d13ac91c64d12baccc131874f8
 
 **`팩토리` 형태의 구조**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1197a160-54be-4a14-8e49-c1840ef9dced/Untitled.png)
+![image](https://user-images.githubusercontent.com/18654358/156860651-b65a63ff-26c9-4344-a83f-97841b21607b.png)
+
 
 **`팩토리 메서드` 형태로 변경**
 
 - 말 그대로 Factory의 Method를 이용해 Product를 반환해내는 것이라 생각하면 된다.
     - ex. createAnimal()
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61924bc8-e7e2-47d4-90ad-ab8a0a0f868b/Untitled.png)
+![image](https://user-images.githubusercontent.com/18654358/156860660-f4bc88b4-d971-4660-8c31-6b85ff6fdd28.png)
+
 
 <aside>
 💡 꼭 하나의 오브젝트 클래스와 팩토리 클래스가 1:1 매칭이 될 필요는 없다.
@@ -66,7 +68,7 @@ https://five-cosmos-fb9.notion.site/Factory-Method-360d13ac91c64d12baccc131874f8
 
 ### 구조
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9af34ff-5020-48ac-87ae-fb278cf9a003/Untitled.png)
+![image](https://user-images.githubusercontent.com/18654358/156860667-9b945fb7-22af-423e-88f2-43c7c90c46d0.png)
 
 ### 참여자
 
@@ -95,7 +97,8 @@ https://five-cosmos-fb9.notion.site/Factory-Method-360d13ac91c64d12baccc131874f8
 
 ### `팩토리 패턴`을 이용한 예제
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/95a868d5-904c-47cc-8dc3-cc872e65471b/Untitled.png)
+![image](https://user-images.githubusercontent.com/18654358/156860672-e38351eb-0254-442d-90a8-1b3a47e90d10.png)
+
 
 **ChampionFactory.java**
 
@@ -199,7 +202,8 @@ zilean : Champion{name='질리언', qSkill='질리언 Q', wSkill='질리언 W', 
 - 팩토리 패턴과 다르게 팩토리를 인터페이스화 하고
 - 이를 구현한 각 구현체 팩토리를 이용하여 객체를 생성해낸다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94667bf9-2437-4be1-840f-793d8b77a3b4/Untitled.png)
+![image](https://user-images.githubusercontent.com/18654358/156860690-fab78d4a-449a-404e-baf2-a121dcaa2cb0.png)
+
 
 **ChampionFactory.java**
 
